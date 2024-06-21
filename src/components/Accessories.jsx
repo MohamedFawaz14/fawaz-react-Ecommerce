@@ -1,7 +1,7 @@
 import React from 'react'
 import Products from "../products";
 
-function Accessories() {
+function Accessories({addToCart}) {
   return (
     <div className='Accessories grid  xl:grid-cols-6  md:grid-cols-3 sm:grid-cols-2'>
       {
@@ -22,7 +22,8 @@ function Accessories() {
           <p className='px-3 pb-3'>{`$${product.price}`}</p>
           
         <button id="btn-addToCart"
-        className=' bg-black text-white px-2 mx-2 mb-3 rounded-lg'>
+        className=' bg-black text-white px-2 mx-2 mb-3 rounded-lg'
+        onClick={()=>addToCart(product)}>
           AddToCart
           </button>
         </div>
