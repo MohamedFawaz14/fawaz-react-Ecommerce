@@ -8,16 +8,38 @@ import Accessories from './components/Accessories';
 import Games from './components/Games';
 import Cart from './components/Cart';
 import products from './products';
+import Footer from './components/Footer';
+
 
 function App() {
-   
+
   const [cart, setCart] = useState([]);
   const [show,setShow] = useState(true);
 
+
+
   const addToCart = (item) => {
-    setCart([...cart,item]);
+    
+   
+    const existingItem = cart.find((cartItem) => cartItem.description === item.description);
+  
+    if (existingItem) {
+      alert("Already in Cart");
+     const updatedCart = cart.map((cartItem) =>
+        cartItem.description === item.description
+          ? { ...cartItem, quantity: cartItem.quantity + 1 }
+          : cartItem
+      );
+      setCart(updatedCart);
+    } 
+    else
+     {
+      setCart([...cart, { ...item, quantity: 1 }]);
+    }
+
     
   };
+  
 
   const handleDisplay = (boolean)=>
     {
@@ -27,9 +49,9 @@ function App() {
     
 
     return (
-      <div className="App">
+      <div className="App ">
         <div className=' container mx-auto'>
-        <Header handleDisplay={handleDisplay}/>
+        <Header handleDisplay={handleDisplay} cart ={cart}/>
        
        {show ? <div> 
         <Carousel/>
@@ -51,10 +73,12 @@ function App() {
           </Routes>
        </div>
        </div>
-       :<Cart cart={cart}/> }
+       :<Cart cart={cart} setCart={setCart}/> }
 
-       
+      
         </div> 
+        <Footer/>
+        
       </div>
     )
 }
