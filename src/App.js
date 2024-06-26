@@ -10,7 +10,6 @@ import Cart from './components/Cart';
 import products from './products';
 import Footer from './components/Footer';
 
-
 function App() {
 
   const [cart, setCart] = useState([]);

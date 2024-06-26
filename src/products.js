@@ -16,7 +16,7 @@ const products = [
     {
         id:3,
         type:"electronics",
-        image:"/images/Apple iPhone 14 Plus (512 GB) - Purple.png",
+        image:"src/images/Apple iPhone 14 Plus (512 GB) - Purple.png",
         description:"Apple iPhone 14 Plus (512 GB) - Purple",
         price:299
     },
