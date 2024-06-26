@@ -50,7 +50,6 @@ function App() {
     return (
       <div className="App ">
         <div className=' container mx-auto'>
-      <img src={Apple} alt ="apple di"/>
         <Header handleDisplay={handleDisplay} cart ={cart}/>
        
        {show ? <div> 
