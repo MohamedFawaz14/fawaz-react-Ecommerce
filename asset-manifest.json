@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/fawaz-react-Ecommerce/static/css/main.41689e7a.css",
+    "main.js": "/fawaz-react-Ecommerce/static/js/main.0f5fe2d2.js",
+    "index.html": "/fawaz-react-Ecommerce/index.html",
+    "main.41689e7a.css.map": "/fawaz-react-Ecommerce/static/css/main.41689e7a.css.map",
+    "main.0f5fe2d2.js.map": "/fawaz-react-Ecommerce/static/js/main.0f5fe2d2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.41689e7a.css",
+    "static/js/main.0f5fe2d2.js"
+  ]
+}
