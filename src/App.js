@@ -9,7 +9,7 @@ import Games from './components/Games';
 import Cart from './components/Cart';
 import products from './products';
 import Footer from './components/Footer';
-
+import Apple from '../public/Apple iPhone 14 Plus (512 GB) - Purple.png';
 
 function App() {
 
@@ -51,6 +51,7 @@ function App() {
     return (
       <div className="App ">
         <div className=' container mx-auto'>
+      <img src={Apple} alt ="apple di"/>
         <Header handleDisplay={handleDisplay} cart ={cart}/>
        
        {show ? <div> 
