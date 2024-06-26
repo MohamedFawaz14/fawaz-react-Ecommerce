@@ -13,7 +13,8 @@ function Electronics({addToCart}) {
         <div key={product.id} className=" mb-5 mx-auto  w-52 border border-grey">
           
           <div className=' bg-gray-100'>
-          <img src={product.image} 
+          <img 
+            src={`${process.env.PUBLIC_URL}/images/${product.image}`}
         alt={product.description} 
         style={{width:"250px",height:"250px"}}
         className='mx-auto mb-5'
