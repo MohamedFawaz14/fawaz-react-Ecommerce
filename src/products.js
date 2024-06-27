@@ -2,7 +2,7 @@ const products = [
     {
         id:1,
         type:"electronics",
-        image:"https://ibb.co/QvytQZH",
+        image:"https://i.ibb.co/N2cbCXN/Dell-Alienware-x16-Gaming-Laptop.png",
         description:"Apple 2023 Macbook Pro",
         price:899
     },
