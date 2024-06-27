@@ -1,5 +1,5 @@
 import React from 'react'
-import Products from "../products";
+import Products from "./products";
 function Games({addToCart}) {
   return (
     <div className='Games grid  xl:grid-cols-6  md:grid-cols-3 sm:grid-cols-2' >

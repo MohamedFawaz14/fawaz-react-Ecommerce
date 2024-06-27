@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import Products from "../products.js";
+import Products from "./products.js";
 
 
 function Electronics({addToCart}) {

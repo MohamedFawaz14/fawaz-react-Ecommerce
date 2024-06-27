@@ -1,5 +1,5 @@
 import React from 'react'
-import Products from "../products";
+import Products from "./products";
 
 function Accessories({addToCart}) {
   return (

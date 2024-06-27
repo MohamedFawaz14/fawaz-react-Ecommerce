@@ -7,7 +7,7 @@ import Electronics from "./components/Electronics";
 import Accessories from './components/Accessories';
 import Games from './components/Games';
 import Cart from './components/Cart';
-import products from './products';
+
 import Footer from './components/Footer';
 
 
