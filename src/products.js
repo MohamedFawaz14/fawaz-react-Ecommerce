@@ -2,7 +2,7 @@ const products = [
     {
         id:1,
         type:"electronics",
-        image:process.env.PUBLIC_URL +'/images/Apple 2024 MacBook Air 13.png',
+        image:"https://ibb.co/QvytQZH",
         description:"Apple 2023 Macbook Pro",
         price:899
     },
