@@ -2,28 +2,28 @@ const products = [
     {
         id:1,
         type:"electronics",
-        image:process.env.PUBLIC_URL +'/images/Apple 2024 MacBook Air 13.png',
+        image:"https://ibb.co/QvytQZH",
         description:"Apple 2023 Macbook Pro",
         price:899
     },
     {
         id:2,
         type:"electronics",
-        image:process.env.PUBLIC_URL +"images/Apple 2024 MacBook Air 13.png",
+        image:"images/Apple 2024 MacBook Air 13.png",
         description:"Apple 2024 MacBook Air 13",
         price:799
     },
     {
         id:3,
         type:"electronics",
-        image:process.env.PUBLIC_URL +"images/Apple iPhone 14 Plus (512 GB) - Purple.png",
+        image:"images/Apple iPhone 14 Plus (512 GB) - Purple.png",
         description:"Apple iPhone 14 Plus (512 GB) - Purple",
         price:299
     },
     {
         id:4,
         type:"electronics",
-        image:process.env.PUBLIC_URL +"images/Apple iPhone 15 (128 GB) - Black.png",
+        image:"images/Apple iPhone 15 (128 GB) - Black.png",
         description:"Apple iPhone 15 (128 GB) - Black",
         price:399
     },
